@@ -2,7 +2,7 @@
 
 ## Jegyzetek
 
-- A [`http` modul fájlban](./xx-http-module.js) az anyag szerint nem szükséges a *response*-t `if-else` struktúrába tenni a `createServer` metódusban, de anélkül hibaüzenet jön.
+- A [`http` modul fájlban](./12-http-module.js) az anyag szerint nem szükséges a *response*-t `if-else` struktúrába tenni a `createServer` metódusban, de anélkül hibaüzenet jön.
 
 - `npm` parancsok
 

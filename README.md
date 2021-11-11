@@ -13,9 +13,9 @@
     
 - `package.json`: Manifest fájl, a projekttel és a használt csomagokkal kapcsolatos fontos infókat tartalmazza.
 - Manuálisan is létrehozható a projekt root-ban.
-    
-- `npm init`: automatikus létrehozás
-    
+    - `npm init`: automatikus létrehozás
 - `npm init -y`: automatikus létrehozás, minden beállítás default értéken marad
-    
-- A `description` default értéke a `README.md` első paragrafusa lesz default, ha kapcsolódunk `git` repóhoz.
+    - A `description` default értéke a `README.md` első paragrafusa lesz default, ha kapcsolódunk `git` repóhoz.
+- Script-ek
+      - `start`: Itt adjuk meg a projekt belépési pontját, pl. `node app.js`. Ezután az `npm start` paranccsal indíthatjuk az appot.
+  - `dev`: Fejlesztési idejű belépési pont, `nodemon`-t indítunk vele: `nodemon app.js`. A `nodemon` követi a projektben történő változásokat és újraindítja az appot, ha módosítottunk valamit.
